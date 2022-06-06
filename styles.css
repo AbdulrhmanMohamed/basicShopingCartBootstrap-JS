@@ -1,0 +1,32 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+.width {
+    width: 250px;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 250px;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.cart .cart-btn {
+    font-size: 30px;
+    display: block;
+}
+
+.list-style {
+    width: 100%;
+    background-color: #ccc;
+    transition: all 1s;
+    min-height: 250px;
+}
